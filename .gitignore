@@ -1,0 +1,23 @@
+# Ignore datasets
+*.csv
+*.json
+*.parquet
+*.zip
+*.zip.*
+
+# Ignore model files and large pickles
+#*.pkl
+*.h5
+*.model
+
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Colab/DS specific files
+.ipynb_checkpoints/
+.DS_Store
+venv/
+*.pyc
+__pycache__/
